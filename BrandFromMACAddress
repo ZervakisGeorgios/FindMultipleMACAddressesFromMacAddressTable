@@ -1,0 +1,5 @@
+import requests
+
+macaddress = "0024.1430.cc3f"
+r = requests.get(url="http://api.macvendors.com/%s" %macaddress)
+print(r.text)
